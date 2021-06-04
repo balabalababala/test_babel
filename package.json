@@ -1,0 +1,23 @@
+{
+  "name": "test_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balabalababala/test_babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/balabalababala/test_babel/issues"
+  },
+  "homepage": "https://github.com/balabalababala/test_babel#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "babel-core": "^6.26.3"
+  }
+}
