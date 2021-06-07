@@ -1,5 +1,5 @@
 const babel = require('@babel/core');
-const c = `import { Button } from 'antd'`;
+const c = `import { Button,Input } from 'antd'`;
 
 const { code } = babel.transform(c, {
   plugins: [
@@ -15,6 +15,7 @@ const { code } = babel.transform(c, {
                   t.stringLiteral(`${source.value}/lib/${specifier.local.name}`)
                 )
               ))
+              newImport.push()
               path.replaceWithMultiple(newImport)
             }
           }
